@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/usersdb
-    username: user
-    password: pass
+    username: postgres
+    password: THISISAVERYSECRETPASSWORD_KASLKDHASJKDASBJKD198165F13456F35644F165WE41F65WE1F65EW
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
