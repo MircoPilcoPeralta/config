@@ -1,9 +1,9 @@
 server:
-  port: 8081
+  port: 8085
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/usersdb
+    url: jdbc:postgresql://localhost:5433/usersdb
     username: postgres
     password: THISISAVERYSECRETPASSWORD_KASLKDHASJKDASBJKD198165F13456F35644F165WE41F65WE1F65EW
     driver-class-name: org.postgresql.Driver
