@@ -1,0 +1,17 @@
+server:
+  port: 8095
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/usersdb
+    username: postgres
+    password: THISISAVERYSECRETPASSWORD_KASLKDHASJKDASBJKD198165F13456F35644F165WE41F65WE1F65EW
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+app:
+  name: mascot-service
+  description: mascot management service
